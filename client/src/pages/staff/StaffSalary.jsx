@@ -18,7 +18,7 @@ export default function StaffSalary() {
       {loading ? <LoadingSpinner /> : (
         <>
           <div className="mb-6 glass-card">
-            <p className="text-white/60">Current Base Salary</p>
+            <p className="text-white/60"> At present Current Base Salary</p>
             <p className="text-3xl font-bold text-emerald-400">{formatCurrency(data?.currentSalary)}</p>
           </div>
 
