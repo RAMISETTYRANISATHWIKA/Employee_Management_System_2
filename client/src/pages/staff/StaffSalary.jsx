@@ -18,10 +18,12 @@ export default function StaffSalary() {
       {loading ? <LoadingSpinner /> : (
         <>
           <div className="mb-6 glass-card">
-            <p className="text-white/60">Current Base Salary</p>
+
+            <p className="text-white/60">Currently Base Salary</p>
+
+            <p className="text-white/e60"> At present Current Base Salary</p>
             <p className="text-3xl font-bold text-emerald-400">{formatCurrency(data?.currentSalary)}</p>
           </div>
-
           {data?.salaries?.length === 0 ? (
             <EmptyState title="No salary records" description="Salary records will appear here once processed" />
           ) : (
