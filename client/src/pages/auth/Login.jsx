@@ -69,7 +69,7 @@ export default function Login() {
                 role === 'admin' ? 'bg-primary text-white' : 'text-white/60 hover:text-white'
               }`}
             >
-              <Shield className="h-4 w-4" /> Admin
+              <Shield className="h-4 w-4" /> Admin  Portal
             </button>
           </div>
 
