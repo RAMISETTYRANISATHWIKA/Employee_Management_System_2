@@ -58,7 +58,7 @@ export default function AdminLeaves() {
                   <span className={statusBadge(l.status)}>{l.status}</span>
                   {l.status === 'pending' && (
                     <div className="flex gap-2">
-                      <button onClick={() => review(l._id, 'approved')} className="btn-primary text-sm py-1.5">Approve</button>
+                      <button onClick={() => review(l._id, 'approved')} className="btn-primary text-sm py-1.5">Approval</button>
                       <button onClick={() => review(l._id, 'rejected')} className="btn-danger text-sm py-1.5">Reject</button>
                     </div>
                   )}
