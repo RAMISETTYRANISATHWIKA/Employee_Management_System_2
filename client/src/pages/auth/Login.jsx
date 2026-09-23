@@ -47,7 +47,7 @@ export default function Login() {
           <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/20 glass">
             <Building2 className="h-8 w-8 text-primary" />
           </div>
-          <h1 className="text-3xl font-bold">EMPLOYEE MANAGEMENT SYSTEM</h1>
+          <h1 className="text-3xl font-bold">EMPLOYEE MANAGEMENT SYSTEM PORTAL</h1>
           <p className="mt-2 text-white/60">Sign in to your EMp portal</p>
         </div>
 
