@@ -145,7 +145,7 @@ export default function StaffLeaves() {
             <label className="mb-1 block text-sm text-white/70">Reason</label>
             <textarea {...register('reason')} className="glass-input min-h-[80px]" required />
           </div>
-          <button type="submit" disabled={isSubmitting} className="btn-primary w-full">Submit Request</button>
+          <button type="submit " disabled={isSubmitting} className="btn-primary w-full">Submit Request here</button>
         </form>
       </Modal>
     </DashboardLayout>
