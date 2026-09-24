@@ -38,7 +38,7 @@ export default function StaffEOD() {
   return (
     <DashboardLayout title="EOD Reports" role="staff">
       <div className="mb-4 flex justify-end">
-        <button onClick={() => setModalOpen(true)} className="btn-primary"><Plus className="h-4 w-4" /> New EOD</button>
+        <button onClick={() => setModalOpen(true)} className="btn-primary"><Plus className="h-4 w-4" /> New End Of Day(EOD)</button>
       </div>
 
       {loading ? <LoadingSpinner /> : reports.length === 0 ? (
