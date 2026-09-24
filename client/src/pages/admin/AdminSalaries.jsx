@@ -62,7 +62,7 @@ export default function AdminSalaries() {
           <table className="w-full text-left text-sm">
             <thead>
               <tr className="border-b border-white/10 text-white/60">
-                <th className="pb-3 pr-4">Employee</th>
+                <th className="pb-3 pr-4">Employee column</th>
                 <th className="pb-3 pr-4">Period</th>
                 <th className="pb-3 pr-4">Net</th>
                 <th className="pb-3 pr-4">Status</th>
