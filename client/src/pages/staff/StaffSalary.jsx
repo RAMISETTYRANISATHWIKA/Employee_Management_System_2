@@ -34,7 +34,7 @@ export default function StaffSalary() {
                     <th className="pb-3 pr-4">Period</th>
                     <th className="pb-3 pr-4">Gross</th>
                     <th className="pb-3 pr-4">Deductions</th>
-                    <th className="pb-3 pr-4">Bonus</th>
+                    <th className="pb-3 pr-4">Bonus salary</th>
                     <th className="pb-3 pr-4">Net</th>
                     <th className="pb-3 pr-4">Credit Date</th>
                     <th className="pb-3">Today's Status</th>
