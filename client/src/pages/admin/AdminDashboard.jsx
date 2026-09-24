@@ -32,7 +32,7 @@ export default function AdminDashboard() {
 
       <div className="grid gap-6 lg:grid-cols-2">
         <div className="glass-card">
-          <h3 className="mb-4 font-semibold">Department Distribution</h3>
+          <h3 className="mb-4 font-semibold">Department Distribution Intelligence Department</h3>
           {deptData.length > 0 ? (
             <ResponsiveContainer width="100%" height={250}>
               <BarChart data={deptData}>
