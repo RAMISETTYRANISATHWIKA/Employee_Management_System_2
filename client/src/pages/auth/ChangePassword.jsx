@@ -39,7 +39,7 @@ export default function ChangePassword() {
         <div className="mb-6 flex items-center gap-3">
           <KeyRound className="h-8 w-8 text-amber-400" />
           <div>
-            <h1 className="text-xl font-bold">Change Password</h1>
+            <h1 className="text-xl font-bold">Change Password-by Madhu</h1>
             <p className="text-sm text-white/60">Required on first login</p>
           </div>
         </div>
